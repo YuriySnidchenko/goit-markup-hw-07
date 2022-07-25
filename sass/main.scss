@@ -1,0 +1,22 @@
+@import './utils/variables';
+@import './base/normalize';
+@import './base/basic-value';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './components/common/logo';
+@import './components/common/title';
+
+// !index
+@import './components/header';
+@import './components/hero-section';
+@import './components/features-section';
+@import './components/our-work-section';
+@import './components/staff-section';
+@import './components/clients-section';
+@import './components/footer';
+
+// !MODAL
+@import './components/modal-window';
+
+// !PORTFOLIO
+@import './components/portfolio';
