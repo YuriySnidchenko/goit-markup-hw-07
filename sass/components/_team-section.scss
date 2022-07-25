@@ -25,15 +25,25 @@
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-right: 10px;
     width: 44px;
     height: 44px;
     background-color: white;
     border-radius: 50%;
+
+    &:last-child {
+        margin-right: 0px;
+
+        &:hover .team__icons,
+        &:focus .team__icons {
+            fill: white;
+            transition: color var(--time-animation) var(--cubic-bezier);
+
+        }
+    }
 }
 
-.team__link:last-child {
-    margin-right: 0px;
+.team__li {
+    margin-right: 10px;
 }
 
 .team__link:hover {
@@ -42,6 +52,8 @@
     transition: 500ms;
 }
 
+
+
 .team__icons {
     width: 20px;
     height: 20px;
@@ -49,16 +61,11 @@
     fill: gray;
 }
 
-.team__link:hover .team__icons,
-.team__link:focus .team__icons {
-    fill: white;
-    transition: color var(--time-animation) var(--cubic-bezier);
-}
-
 .team__list {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px
 }
 
 .team__name {
