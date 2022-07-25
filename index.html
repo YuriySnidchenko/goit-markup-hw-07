@@ -12,8 +12,8 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/main.min.css" /> -->
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./css/normalize.css" /> -->
     <!-- <link rel="stylesheet" type="text/css" href="./css/styles.css" /> -->
 </head>
 
@@ -336,15 +336,14 @@
         <div class="container flexbox">
             <div class="footer__contacts">
                 <a class="logo white" href="./index.html"><span class="first">Web</span>Studio</a>
-                <ul class="contact list">
-                    <li class="footer__list"><a class="contact__map" href="https://goo.gl/maps/8DTcKhsca9sqMdtq7"
-                            target="_blank" rel="noopener nofollow noreferrer">
-                            г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="footer__list"><a class="contact__footer"
-                            href="mailto:info@example.com">info@example.com</a>
-                    </li>
-                    <li class="footer__list"><a class="contact__footer" href="tel:+380991111111">+38 099 111 11 11</a>
-                    </li>
+                <li class="footer__list"><a class="contact__map" href="https://goo.gl/maps/8DTcKhsca9sqMdtq7" <ul
+                        class="contact list">
+                        target="_blank" rel="noopener nofollow noreferrer">
+                        г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="footer__list"><a class="contact__footer" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="footer__list"><a class="contact__footer" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
                 </ul>
             </div>
             <div class="footer-icons-link">
@@ -407,50 +406,46 @@
 
             <p class="modal__title-form">Оставьте свои данные, мы вам перезвоним</p>
             <form name="registration__form" class="container__form">
-                <div clas="register">
-                    <label for="name" class="form__hidden">Имя
-                        <span class="span">
-                            <input type="text" name="name" id="name" class="input" />
-                            <svg width="12px" height="12px" class="icon__form">
-                                <use href="./images/icons2/symbol-defs.svg#new-people"></use>
-                            </svg>
-                        </span>
-                    </label>
-                    <label for="telephone" class="form__hidden">Телефон
-                        <span class="span">
-                            <input type="tel" name="telephone" id="telephone" class="input" />
-                            <svg width="13px" height="13px" class="icon__form">
-                                <use href="./images/icons2/symbol-defs.svg#new-pnone"></use>
-                            </svg>
-                        </span>
-                    </label>
-                    <label for="mail" class="form__hidden">Почта
-                        <span class="span">
-                            <input type="email" name="mail" id="mail" class="input" />
-                            <svg width="15px" height="12px" class="icon__form">
-                                <use href="./images/icons2/symbol-defs.svg#new-mail-svg"></use>
-                            </svg>
-                        </span>
-                    </label>
-                    <label for="text" class="form__hidden">Комментарий
-                        <span class="span">
-                            <textarea name="text" rows="5" id="text" class="form__textarea"></textarea>
-                        </span>
-                    </label>
+                <label for="name" class="form__hidden">Имя
+                    <span class="span">
+                        <input type="text" name="name" id="name" class="input" />
+                        <svg width="12px" height="12px" class="icon__form">
+                            <use href="./images/icons2/symbol-defs.svg#new-people"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label for="telephone" class="form__hidden">Телефон
+                    <span class="span">
+                        <input type="tel" name="telephone" id="telephone" class="input" />
+                        <svg width="13px" height="13px" class="icon__form">
+                            <use href="./images/icons2/symbol-defs.svg#new-pnone"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label for="mail" class="form__hidden">Почта
+                    <span class="span">
+                        <input type="email" name="mail" id="mail" class="input" />
+                        <svg width="15px" height="12px" class="icon__form">
+                            <use href="./images/icons2/symbol-defs.svg#new-mail-svg"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label for="text" class="form__hidden">Комментарий
+                    <span class="span">
+                        <textarea name="text" rows="5" id="text" class="form__textarea"></textarea>
+                    </span>
+                </label>
 
-                    <input type="checkbox" name="ok" value="ok" id="ok" class="input__checkbox visually-hidden" />
-                    <label for="ok" class="chekbox">
-                        <p class="license">Соглашаюсь с рассылкой и принимаю
-                            <a href="" class="license color__link">Условия договора</a>
-                        </p>
-
-                    </label>
-                    <button type="submit" class="form__btn">Отправить</button>
+                <input type="checkbox" name="ok" value="ok" id="ok" class="input__checkbox visually-hidden" />
+                <label for="ok" class="chekbox">
+                    <p class="license">Соглашаюсь с рассылкой и принимаю
+                        <a href="" class="license color__link">Условия договора</a>
+                    </p>
+                </label>
+                <button type="submit" class="form__btn">Отправить</button>
             </form>
         </div>
     </div>
-    </div>
-
     <script src="./js/modal.js"></script>
 </body>
 

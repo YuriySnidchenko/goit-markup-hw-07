@@ -123,8 +123,8 @@ footer a {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* outline: 2px solid tOmato; */
-}
+    /* outline: 2px solid tOmato; 
+} */
 
 /*
 
@@ -138,7 +138,7 @@ footer a {
     align-items: center;
 }
 
-/* -тег выравнивание контента  justify-content: space-between;}*/
+/* -тег выравнивание контента  justify-content: space-between;*/
 .headers__mail {
     margin-right: 10px;
     width: 15px;
@@ -209,7 +209,6 @@ footer a {
     margin-left: 50px;
 }
 
-
 .headers__contact-link {
     display: flex;
     margin: auto;
@@ -274,7 +273,7 @@ footer a {
 }
 
 /* КНОПКА МАДАЛКА */
-.hero__btn:avtive {}
+/* .hero__btn:avtive {} */
 
 /*--------------------- our project ----------------*/
 .advantage {
