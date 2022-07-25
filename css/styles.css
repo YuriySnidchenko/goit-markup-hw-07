@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --main-color: rgb(33, 33, 33);
     --secondary-color: rgb(117, 117, 117);
     --white-color: rgb(255, 255, 255);
@@ -9,7 +9,7 @@
     --bg-black-color: rgb(47, 48, 58);
     --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
     --time-animation: 250ms;
-}
+} */
 
 /* Загалні параметри css
 body {
@@ -42,12 +42,12 @@ p {
 *::before {
     box-sizing: inherit;
 } */
-
+/* 
 .svg {
     fill: currentColor;
     width: 106px;
     height: 60px;
-}
+} */
 
 /* Класс для обнуления базовых свойств у списков (ul) */
 /* .list {
@@ -70,9 +70,9 @@ p {
 } */
 
 /* Свойства для обнуления курсива у address */
-address {
+/* address {
     font-style: normal;
-}
+} */
 
 /* скрывает тег */
 /* .visually-hidden {
@@ -88,13 +88,13 @@ address {
     overflow: hidden;
 } */
 
-header a,
+/* header a,
 footer a {
     text-decoration: none;
-}
+} */
 
 
-/* navigation & logo WebStudio */
+/* navigation & logo WebStudio
 
 .logo {
     color: var(--main-color);
@@ -117,7 +117,7 @@ footer a {
 
 .first {
     color: var(--btn-color);
-}
+} */
 
 /* .container {
     width: 1200px;
@@ -420,10 +420,9 @@ footer a {
 }
 
 .team__link:hover .team__icons,
-.team__link:focus .team__icons,
-{
-fill: white;
-transition: color var(--time-animation) var(--cubic-bezier);
+.team__link:focus .team__icons {
+    fill: white;
+    transition: color var(--time-animation) var(--cubic-bezier);
 }
 
 .team__list {
@@ -940,10 +939,6 @@ transition: color var(--time-animation) var(--cubic-bezier);
 
 }
 
-.modal__caption {}
-
-
-
 .container__form {
     /* <FORM> */
     /* outline: 1px solid red; */
@@ -979,7 +974,7 @@ transition: color var(--time-animation) var(--cubic-bezier);
     margin-bottom: 10px;
 }
 
-. {
+.icon__form {
     position: absolute;
     top: 14px;
     left: 15px;

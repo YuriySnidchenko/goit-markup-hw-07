@@ -10,9 +10,13 @@
     gap: 30px;
 }
 
+.advantage__list:not(:last-child) {
+    width: 270px;
+}
+
 .advantage__container-svg {
     /* DIV - icons - container */
-    /* display: flex; */
+    display: flex;
 
     justify-content: center;
     align-items: center;

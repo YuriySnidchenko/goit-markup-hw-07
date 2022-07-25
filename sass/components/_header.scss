@@ -1,3 +1,13 @@
+.headers {
+    display: flex;
+    padding: 24px 15px;
+}
+
+.headers__nav {
+    display: flex;
+    align-items: center;
+}
+
 .headers__mail {
     margin-right: 10px;
     width: 15px;
@@ -5,6 +15,7 @@
     /* outline: 1px solid black; */
     fill: currentColor;
 }
+
 
 .headers__phone {
     margin-right: 10px;

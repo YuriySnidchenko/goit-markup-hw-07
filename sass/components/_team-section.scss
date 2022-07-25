@@ -50,10 +50,9 @@
 }
 
 .team__link:hover .team__icons,
-.team__link:focus .team__icons,
-{
-fill: white;
-transition: color var(--time-animation) var(--cubic-bezier);
+.team__link:focus .team__icons {
+    fill: white;
+    transition: color var(--time-animation) var(--cubic-bezier);
 }
 
 .team__list {
